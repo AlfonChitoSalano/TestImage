@@ -1,0 +1,166 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    background-color: #ffffff;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+    padding: 2em;
+}
+
+#app {
+    width: 100%;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+/* Kendo UI Custom CSS */
+.k-avatar {
+    width: 30px;
+    height: 30px;
+    flex-basis: 24px;
+    border-radius: 92px;
+    background: #C4C4C4;
+}
+
+.k-avatar-text {
+    display: flex;
+    justify-content: center;
+}
+
+.k-tabstrip-content {
+    width: 1104px;
+    height: 303.59px;
+    text-align: start;
+    user-select: none;
+}
+
+.k-tabstrip-items-wrapper {
+    width: 1104px;
+}
+
+.k-link {
+    width: 133.63px;
+    height: 57.19px;
+    font-size: 15px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.k-item {
+    white-space: pre-line;
+}
+
+.k-item.k-active {
+    color: #1d1e1c !important;
+}
+
+.k-window.k-dialog {
+    border-radius: 4px;
+}
+
+.k-window-titlebar.k-dialog-titlebar {
+    background-color: #efefef;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid rgba(29, 30, 28, .25);
+    padding: 8px 0;
+}
+
+.k-input {
+    box-shadow: none !important;
+}
+
+.k-textarea {
+    box-shadow: none !important;
+}
+
+.k-link.k-menu-link {
+    background-color: #FA5D00;
+    color: white;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.k-link.k-menu-link:hover {
+    color: white;
+}
+
+.k-window-titlebar-actions.k-dialog-titlebar-actions {
+    margin-right: 4px;
+}
+
+.alert-title {
+    margin-left: 12px;
+    font-weight: 600;
+    color: #1d1e1c;
+}
